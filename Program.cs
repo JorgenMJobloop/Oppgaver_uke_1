@@ -1,4 +1,6 @@
-﻿namespace Oppgave_uke_1;
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Oppgave_uke_1;
 class Program
 {
     // Fasit oppgave 2
@@ -50,6 +52,18 @@ class Program
 
         Console.WriteLine(AddNumbers(5,5));
         Console.WriteLine(SayHello("Jorgen"));
+
+        double MyDoubleMethod(int a, double b) 
+        {
+            return a + b;
+        }
+        Console.WriteLine(MyDoubleMethod(3,2.5));
+
+        string MyStringMethod(string message) 
+        {
+            return message;
+        }
+        Console.WriteLine(MyStringMethod(" "));
     }
 
     static public int AddNumbers(int a, int b) 
