@@ -61,9 +61,9 @@ class Program
         {
             return message;
         }
-        Console.WriteLine(MyStringMethod(" "));
+        Console.WriteLine(MyStringMethod("Hello MyStringMethod!"));
     }
-
+// Eksempler på metoder som ligger utenfor static void Main() sitt scope
     static public int AddNumbers(int a, int b) 
     {
         return a + b;
