@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace Oppgave_uke_1;
+﻿namespace Oppgave_uke_1;
 class Program
 {
     // Fasit oppgave 2
