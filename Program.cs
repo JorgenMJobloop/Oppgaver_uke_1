@@ -1,4 +1,8 @@
 ﻿namespace Oppgave_uke_1;
+/*
+Fasit oppgave 1
+Lage et nytt prosjekt
+*/
 class Program
 {
     // Fasit oppgave 2
@@ -49,7 +53,7 @@ class Program
         }
 
         Console.WriteLine(AddNumbers(5,5));
-        Console.WriteLine(SayHello("Jorgen"));
+        Console.WriteLine(SayHello("Kai"));
 
         double MyDoubleMethod(int a, double b) 
         {
@@ -64,12 +68,12 @@ class Program
         Console.WriteLine(MyStringMethod("Hello MyStringMethod!"));
     }
 // Eksempler på metoder som ligger utenfor static void Main() sitt scope
-    static public int AddNumbers(int a, int b) 
+    static int AddNumbers(int a, int b) 
     {
         return a + b;
     }
 
-    static public string SayHello(string greeting) 
+    static string SayHello(string greeting) 
     {
         return "Hello there " + greeting + "!";
     }
